@@ -1,3 +1,5 @@
+var express = require('express');
+var app = express();
 var getStarted = document.getElementById("formButton");//grab "get started" button
 var addIngredient = document.getElementById("addIngredient");
 
