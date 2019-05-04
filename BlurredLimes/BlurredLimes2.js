@@ -1,7 +1,6 @@
-var express = require('express');
-var app = express();
 var getStarted = document.getElementById("formButton");//grab "get started" button
 var addIngredient = document.getElementById("addIngredient");
+
 
 getStarted.addEventListener("click", function(){ //add click listener to "get started" button
     var display = document.getElementById("form");
@@ -20,8 +19,4 @@ addIngredient.addEventListener("click", function(){
 	
 	position.appendChild(newLi);
 	
-});
-
-app.listen(3000, function(){
-	console.log("Server has started");
 });
