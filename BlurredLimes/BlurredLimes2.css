@@ -8,7 +8,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     margin: 0;
-    background: url(https://images.unsplash.com/photo-1530536476203-d77e573bc524?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background: url(https://images.unsplash.com/photo-1484412509196-57eda96981e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 	  background-size: cover;
 	  background-position: center;
     background-repeat: no-repeat;
@@ -105,18 +105,33 @@ nav a:hover {
 form input {
   line-height: 25px;
   margin-bottom: 8px;
+  margin-right: 42px;
 }
 
 button {
   font-family: Bitter;
   font-size: 16px;
-  height: 30px;
+  height: 40px;
+  width: 145px;
+  color: black;
+  background: #252525;
+  height: 40px;
+  border: 1px solid transparent;
+  color: white;
+  display: flex-start;
+  justify-content: center;
+}
+
+button:hover {
+  color: #bfff00;
 }
 
 #formButton {
   font-size: 20px;
   font-family: Bitter;
+  color: black;
   height: 48px;
+  width: 175px;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.75);
   padding: .5rem 1rem;
@@ -134,7 +149,7 @@ button {
 
 .content {
     text-align: center;
-    padding-top: 25%;
+    padding-top: 24%;
     font-size: 1.5rem;
 }
 
@@ -147,7 +162,8 @@ form {
 	background-color: rgba(255, 255, 255, 0.75);
   border: black solid 1px;
   margin-top: 8px;
-  display: block;
+  display: flex-start;
+  justify-content: center;
 }
 
 .display {

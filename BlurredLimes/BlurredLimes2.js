@@ -11,9 +11,12 @@ addIngredient.addEventListener("click", function(){
     var newLi = document.createElement('li');
     var newInput = document.createElement('input');
     var ingredient = document.createTextNode('Ingredient: ');
+    var label = document.createElement("label");
     
-    newLi.appendChild(ingredient);
-	newLi.appendChild(newInput);
+    label.setAttribute("for", "I4");
+    newLi.appendChild(label);
+    label.appendChild(ingredient);
+    newLi.appendChild(newInput);
 	
 	var position = document.getElementById('list');
 	
