@@ -1,0 +1,201 @@
+html {
+  height: 100%;
+}
+
+body {
+    font-family: Bitter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1484412509196-57eda96981e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	  background-size: cover;
+	  background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #252525;
+    width: 100%;
+}
+
+nav a {
+    display: inline;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 8px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h1, h3 {
+	color: white;
+    text-shadow: 2px 2px 8px #000000;
+    font-weight: 400;
+    margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 span {
+	color: #bfff00;
+}
+
+form input {
+    border-radius: 10px;
+    border: black solid 1px;
+}
+
+form input:focus {
+    border: 2px solid #bfff00;
+    outline: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a:active {
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.navLinks {
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.active {
+  color: white;
+}
+
+.navBrand {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 0 16px 0 0;
+}
+
+.navBrand span {
+    color: #bfff00
+}
+
+#mainNav {
+    align-items: center;
+    border-radius: 4px;
+    margin: 0;
+    padding: .5rem 1rem;
+    position: relative;
+    height: 40px;
+    display: flex-start;
+}
+
+form input {
+  line-height: 25px;
+  margin-bottom: 8px;
+  margin-right: 42px;
+}
+
+button {
+  font-family: Bitter;
+  font-size: 16px;
+  height: 40px;
+  width: 145px;
+  color: black;
+  background: #252525;
+  height: 40px;
+  border: 1px solid transparent;
+  color: white;
+  display: flex-start;
+  justify-content: center;
+}
+
+button:hover {
+  color: #bfff00;
+}
+
+#formButton {
+  font-size: 20px;
+  font-family: Bitter;
+  color: black;
+  height: 48px;
+  width: 175px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: .5rem 1rem;
+  line-height: 1.5rem;
+  border-radius: .3rem;
+  border: 1px solid transparent;
+  transition: color .20s ease-in-out,background-color .20s ease-in-out,border-color .20s ease-in-out,box-shadow .20s ease-in-out;
+  outline: none;
+}
+
+#formButton:hover {
+	background-color: rgba(191, 255, 0, 0.75);
+	color: white;
+}
+
+.content {
+    text-align: center;
+    padding-top: 24%;
+    font-size: 1.5rem;
+}
+
+form {
+  border-radius: 8px;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+	padding: 75px;
+	background-color: rgba(255, 255, 255, 0.75);
+  border: black solid 1px;
+  margin-top: 8px;
+  display: flex-start;
+  justify-content: center;
+}
+
+.display {
+  display: none;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }

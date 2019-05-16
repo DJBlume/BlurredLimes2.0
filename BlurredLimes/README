@@ -1,0 +1,5 @@
+To launch app, please follow instructions below:
+  1. Clone repository to file of your choosing
+  2. Direct command line to the directory you have stored this in.
+  3. Launch server.js using node "node server.js" in command line.
+  4. Go to http://localhost:3000/blurredlimes.html
