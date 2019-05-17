@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blurred Limes</title>
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<header>
+	<input type="checkbox" id="nav-toggle" class="nav-toggle">
+	<nav>
+		<ul>
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">About</a>
+			</li>
+			<li>
+				<a href="#">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	<label for="nav-toggle" class="nav-toggle-label">
+		<span>X</span>
+	</label>
+</header>
+<body>
+	<div class="container">
+        <div class="content">
+            <h1>Blurred <span>Limes</span></h1>
+            <h3>The only Recipe Finder you'll ever need!</h3>
+            <hr>
+            <button id="formButton" type="button"><i class="fas fa-search"></i> Get Started</button>
+        </div>
+        <!--Form Start-->
+        <div>
+            <form class="display" id = "form">
+                <ul id = "list">
+                    <li>
+                        <label for="I1">Ingredient:</label>
+                        <input type="text" name="I1"><br>
+                    </li>
+                    <li>
+                        <label for="I2">Ingredient:</label>
+                        <input type="text" name="I2"><br>
+                    </li>
+                    <li>
+                        <label for="I3">Ingredient:</label>
+                        <input type="text" name="I3"><br>
+                    </li>
+                </ul>
+                <button type = "button" id = "addIngredient"><i class="fas fa-plus"> Add Ingredient</i></button>
+                <button type="submit">Submit</button>
+            </form>
+        <!--Form End-->
+        </div>
+    </div>
+
+    <script src="BL.js"></script>
+</body>
+</html>
